@@ -26,6 +26,18 @@ ZEROUI gives you control over what stays visible.
 
 **Less visual noise. More focus.**
 
+
+## Screenshots
+
+### ZEROUI Popup
+
+![ZEROUI Popup](screenshots/main.png)
+
+### After
+
+![ZEROUI Before and After](screenshots/after.png)
+
+
 ## Beta
 
 ZEROUI is currently in **beta**.
@@ -80,15 +92,6 @@ ZEROUI/
     └── after.png
 ```
 
-## Screenshots
-
-### ZEROUI Popup
-
-![ZEROUI Popup](screenshots/main.png)
-
-### After
-
-![ZEROUI Before and After](screenshots/after.png)
 
 ## Beta Feedback
 

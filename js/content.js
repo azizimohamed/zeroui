@@ -36,7 +36,6 @@
     });
   }
 
-
   /**
    * Stops observing favicon changes.
    *
@@ -50,13 +49,11 @@
     faviconObserver = null;
   }
 
-
   /**
    * Hides the favicon by replacing it with a blank icon and observing for changes.
-   * If the favicon is changed, it will be replaced again with the blank icon.  
+   * If the favicon is changed, it will be replaced again with the blank icon.
    */
   function hideFavicon() {
-
     startFaviconObserver();
 
     document
@@ -86,13 +83,12 @@
     }
   }
 
-
   /**
    * Restores the original favicon by removing the blank icon and restoring the original rel attributes.
    */
   function showFavicon() {
     stopFaviconObserver();
-    
+
     document
       .querySelectorAll("link[data-zeroui-original-rel]")
       .forEach((icon) => {
@@ -107,8 +103,6 @@
         icon.remove();
       });
   }
-
-
 
   /**
    * removes emojis from all text nodes in the document and caches the original text for restoration later.
@@ -135,7 +129,6 @@
       }
     }
   }
-
 
   /**
    * Restores the original text for all text nodes that had emojis removed, using the cached values.
