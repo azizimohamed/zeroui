@@ -76,8 +76,8 @@ ZEROUI/
 │   └── icon-128.png
 │
 └── screenshots/
-    ├── main-popup.png
-    └── before-after.png
+    ├── main.png
+    └── after.png
 ```
 
 ## Screenshots
@@ -88,7 +88,7 @@ ZEROUI/
 
 ### Before & After
 
-![ZEROUI Before and After](screenshots/before-after.png)
+![ZEROUI Before and After](screenshots/after.png)
 
 ## Beta Feedback
 
