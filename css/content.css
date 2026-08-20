@@ -1,0 +1,119 @@
+/* Images */
+html[hide_images="true"] img,
+html[hide_images="true"] picture,
+html[hide_images="true"] video[poster] {
+    visibility: hidden !important;
+}
+
+
+html[hide_backgrounds="true"] * {
+    background-image: none !important;
+}
+
+
+/* SVG icons */
+html[hide_icons="true"] svg,
+html[hide_icons="true"] button svg,
+html[hide_icons="true"] a svg,
+html[hide_icons="true"] [role="button"] svg {
+    display: none !important;
+}
+
+
+/* Buttons */
+html[hide_buttons="true"] button,
+html[hide_buttons="true"] [role="button"] {
+    display: none !important;
+}
+
+
+/* Menus */
+html[hide_menus="true"] nav,
+html[hide_menus="true"] select,
+html[hide_menus="true"] [role="nav"] {
+    display: none !important;
+}
+
+html[hide_menus="true"] menu,
+html[hide_menus="true"] [role="menu"],
+html[hide_menus="true"] [role="menubar"] {
+    display: none !important;
+}
+
+
+/* Sidebars */
+html[hide_sidebars="true"] aside,
+html[hide_sidebars="true"] [role="complementary"] {
+    display: none !important;
+}
+
+
+
+
+/* Popups / dialogs */
+html[hide_popups="true"] dialog,
+html[hide_popups="true"] [role="dialog"],
+html[hide_popups="true"] [aria-modal="true"] {
+    display: none !important;
+}
+
+
+/* ============================================================
+   DISTRACTIONS
+   ============================================================ */
+
+/* Ads */
+html[hide_ads="true"] [aria-label*="ad" i],
+html[hide_ads="true"] [id*="ad" i],
+html[hide_ads="true"] [class*="ad-" i],
+html[hide_ads="true"] [class*="-ad" i],
+html[hide_ads="true"] [class*="advert" i],
+html[hide_ads="true"] [data-ad],
+html[hide_ads="true"] ins {
+    display: none !important;
+}
+
+
+/* Sponsored content */
+html[hide_sponsored="true"] [aria-label*="sponsored" i],
+html[hide_sponsored="true"] [class*="sponsored" i],
+html[hide_sponsored="true"] [data-sponsored] {
+    display: none !important;
+}/* Popups / dialogs */
+html[hide_popups="true"] dialog,
+html[hide_popups="true"] [role="dialog"],
+html[hide_popups="true"] [aria-modal="true"] {
+    display: none !important;
+}
+
+
+/* ============================================================
+   DISTRACTIONS
+   ============================================================ */
+
+/* Ads */
+html[hide_ads="true"] [aria-label*="ad" i],
+html[hide_ads="true"] [id*="ad" i],
+html[hide_ads="true"] [class*="ad-" i],
+html[hide_ads="true"] [class*="-ad" i],
+html[hide_ads="true"] [class*="advert" i],
+html[hide_ads="true"] [data-ad],
+html[hide_ads="true"] ins {
+    display: none !important;
+}
+
+
+/* Sponsored content */
+html[hide_sponsored="true"] [aria-label*="sponsored" i],
+html[hide_sponsored="true"] [class*="sponsored" i],
+html[hide_sponsored="true"] [data-sponsored] {
+    display: none !important;
+}
+
+
+/* Emoji elements */
+html[hide_emojis="true"] .emoji,
+html[hide_emojis="true"] img.emoji,
+html[hide_emojis="true"] [data-emoji] {
+    display: none !important;
+}

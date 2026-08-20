@@ -1,0 +1,41 @@
+{
+  "manifest_version": 3,
+  "name": "ZEROUI",
+  "short_name": "ZEROUI",
+  "version": "1.0.0",
+  "description": "Remove visual clutter from webpages — images, background images, icons, emojis, favicons, buttons, and menus.",
+  "action": {
+    "default_icon": {
+      "16": "images/icon-16.png",
+      "32": "images/icon-32.png",
+      "48": "images/icon-48.png",
+      "128": "images/icon-128.png"
+    },
+    "default_popup": "popup.html",
+    "default_title": "ZEROUI"
+  },
+
+  "background": {
+    "service_worker": "js/background.js"
+  },
+
+  "permissions": ["storage"],
+
+  "host_permissions": ["<all_urls>"],
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "css": ["css/content.css"],
+      "js": ["js/content.js"],
+      "run_at": "document_start"
+    }
+  ],
+
+  "icons": {
+    "16": "images/icon-16.png",
+    "32": "images/icon-32.png",
+    "48": "images/icon-48.png",
+    "128": "images/icon-128.png"
+  }
+}
