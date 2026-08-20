@@ -86,7 +86,7 @@ ZEROUI/
 
 ![ZEROUI Popup](screenshots/main.png)
 
-### Before & After
+### After
 
 ![ZEROUI Before and After](screenshots/after.png)
 
