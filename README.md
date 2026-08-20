@@ -84,7 +84,7 @@ ZEROUI/
 
 ### ZEROUI Popup
 
-![ZEROUI Popup](screenshots/main-popup.png)
+![ZEROUI Popup](screenshots/main.png)
 
 ### Before & After
 
